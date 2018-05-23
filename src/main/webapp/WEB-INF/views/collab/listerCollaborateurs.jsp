@@ -1,5 +1,6 @@
 <%@ page language="java" pageEncoding="UTF-8"%>
 <%@page import="java.util.List"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,7 +50,7 @@
 	</nav>
 	<div class="container border mt-3">
 		<button type="button" class="btn btn-outline-dark float-right mt-2"
-			onclick="location.href = 'creer-collab.html';">Ajouter un
+			onclick="location.href ='sgp/collaborateurs/ajouterCollaborateurs.jsp';">Ajouter un
 			collaborateur</button>
 		<h2>Les collaborateurs</h2>
 		<div class="input-group mb-3 mt-5">
